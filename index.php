@@ -1,4 +1,5 @@
 <?php
+//Testowa linijka
 session_start();
 // Display errors
 ini_set('display_errors', 1);
