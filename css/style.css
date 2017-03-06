@@ -1,0 +1,123 @@
+.navbar-brand img {
+	height: 40px !important;
+}
+.bg-inverse {
+    background-color: #e7e7e7 !important;
+	border-bottom: 1px solid #b0b0b0;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+    color: #555 !important;
+	letter-spacing: 0.2px !important;
+}
+
+.navbar-inverse .navbar-nav .nav-link:focus, .navbar-inverse .navbar-nav .nav-link:hover{
+    background-color: #d6d6d6 !important;
+	color: #242424 !important;
+}
+
+.nav-link {
+	padding: 1em 1em !important;
+}
+
+.navbar {
+	padding: 0 !important;
+}
+
+.navbar-inverse .navbar-toggler {
+	background-color: #555;
+	border-color: #b0b0b0;
+	margin-top:5px;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 360px;
+    margin: 30px auto;
+    }}
+
+.modal-content {
+    background-color: #eee!important;
+}
+
+.modal-custom-container {
+    width:100%;
+}
+
+.modal-custom-container button {
+    width: 100%;
+    border-radius: 0;
+}
+
+.modal-content {
+    border-radius: 0;
+    
+}
+
+.modal-content input {
+    border-radius: 0;
+}
+
+@media (min-width: 576px){
+.modal-content .form-inline .form-control {
+    width: 100%;
+    }}
+
+.input-group-addon img {
+    color: #fff!important;
+}
+
+.input-group-addon:not(:last-child) {
+    width: 38px;
+}
+
+.user-panel-nav .btn {
+    border-radius: 0!important;
+}
+
+.h2-header {
+    line-height: 2!important;
+}
+
+#pa-menu nav a {
+    transition: 0.2s;
+}
+
+#pa-menu nav a:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+
+#pa-menu nav a.active:hover {
+    background: #014c8c!important;
+    transition: 0.2s;
+}
+
+#pa-menu nav .nav-link {
+    border-radius: 0;
+    padding: 0.5rem 0.5rem!important;
+}
+
+#pa-menu nav .second {
+    padding-left: 40px!important;
+}
+
+#pa-menu-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#pa-menu-header p {
+    padding: 10px 0;
+    margin: 0;
+}
+
+#pa-menu {
+    padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+#top-builds-home {
+    background-color: #333;
+    padding: 30px 0;
+}
