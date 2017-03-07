@@ -221,4 +221,28 @@ function activate_user($login){
     header('Location: '.$_SERVER['REQUEST_URI']);
 }
 
+function getOptionPA(){
+    if(isset($_GET['option'])){
+        switch($_GET['option']){
+            case 'ul':
+                return 'ul';
+                break;
+            case 'ue':
+                return 'ue';
+                break;
+        }
+        
+    }
+    return null;
+}
+
+function collapseShowPA() {
+    if(isset($_GET['option'])){
+        if($_GET['option'] == 'ul' || $_GET['option'] == 'ue'){
+            return 'showU';
+        }
+        
+    }
+}
+
 ?>
